@@ -131,11 +131,11 @@ The codespace installs ollama automaticaly and downloads the `llava` model.  You
 
 ### Gitpod
 
-You can easily use Open UI via Gitpod, preconfigured with Open AI.
+You can easily use Blizzer UI via Gitpod, preconfigured with Open AI.
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/wandb/openui)
 
-On launch Open UI is automatically installed and launched.
+On launch Blizzer UI is automatically installed and launched.
 
 Before you can use Gitpod:
 

@@ -42,7 +42,7 @@ class OpenUIApp(App):
 
     def on_session_update(self, message):
         if message.session_data.markdown is not None:
-            logger.debug("Updating Open UI %s", message.session_data.name)
+            logger.debug("Updating Blizzer UI %s", message.session_data.name)
             foo = self.query_one(TextArea)
             foo.text = message.session_data.html
             self.sub_title = message.session_data.name
