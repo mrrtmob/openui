@@ -67,6 +67,37 @@
 				}
 			}
 		</script>
+		<style>
+			@keyframes fadeOut {
+				0% {
+					opacity: 1;
+				}
+				50% {
+					opacity: 0.5;
+				}
+				100% {
+					opacity: 0;
+				}
+			}
+		
+			@keyframes fadeIn {
+				0% {
+					opacity: 0;
+				}
+				50% {
+					opacity: 1;
+				}
+				100% {
+					opacity: 0;
+				}
+		
+			}
+		
+			.loader {
+				animation: fadeOut 3s ease-in-out infinite;
+			}
+		
+		</style>
 		<style type="text/css">
 			#loading-icon {
 				text-align: center;
