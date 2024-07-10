@@ -551,7 +551,7 @@ export default function Prompt({
 					}}
 				/>
 				<div className='flex items-center'>
-					{isEditing ? (
+					{/* {isEditing ? (
 						<Tooltip>
 							<TooltipTrigger asChild>
 								<Button
@@ -607,7 +607,7 @@ export default function Prompt({
 								Upload a screenshot of a web page you want to replicate
 							</TooltipContent>
 						</Tooltip>
-					) : undefined}
+					) : undefined} */}
 					{rendering ? (
 						<div className='rendering h-8 w-8 flex-none animate-spin rounded-full bg-gradient-to-r from-purple-500 via-pink-500 to-red-500' />
 					) : (
