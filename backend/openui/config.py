@@ -52,7 +52,7 @@ BUCKET_NAME = os.getenv("BUCKET_NAME", "openui")
 
 # Cors, if you're hosting the annotator iframe elsewhere, add it here
 CORS_ORIGINS = os.getenv(
-    "OPENUI_CORS_ORIGINS", "https://wandb.github.io,https://localhost:5173"
+    "OPENUI_CORS_ORIGINS", "https://ui.blizzer.tech,https://localhost:5173"
 ).split(",")
 
 # Model providers

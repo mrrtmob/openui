@@ -96,7 +96,7 @@ export default function HTMLAnnotator({ error, id }: HTMLAnnotatorProps) {
 	// only point to our local annotator in development / running locally otherwise use github pages
 	const iframeSrc = /127\.0\.0\.1|localhost/.test(document.location.hostname)
 		? `http://${document.location.hostname}:${document.location.port === '5173' ? '7878' : document.location.port}`
-		: 'https://wandb.github.io'
+		: 'https://ui.blizzer.tech'
 	const iframeRef = useRef<HTMLIFrameElement | null>(null)
 	const annotatorRef = useRef<HTMLDivElement | null>(null)
 	const iframeId = useMemo(() => nanoid(8), [])

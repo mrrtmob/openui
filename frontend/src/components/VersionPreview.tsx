@@ -26,7 +26,7 @@ export default function VersionPreview({
 }) {
 	const iframeSrc = /127.0.0.1|localhost/.test(document.location.hostname)
 		? 'http://localhost:7878'
-		: 'https://wandb.github.io'
+		: 'https://ui.blizzer.tech'
 	const iframeRef = useRef<HTMLIFrameElement | null>(null)
 	const [isFrameReady, setIsFrameReady] = useState(false)
 	const isVisible = useAtomValue(historySidebarStateAtom) === 'versions'

@@ -81,7 +81,7 @@ export default function History() {
 				Built with{' '}
 				<img
 					aria-hidden
-					src='https://wandb.github.io/weave/img/logo.svg'
+					src='https://ui.blizzer.tech/weave/img/logo.svg'
 					className='inline-block w-4'
 					alt='Weave'
 				/>{' '}
