@@ -269,7 +269,7 @@ export default function Chat({ isShared = false }: { isShared: boolean }) {
 								</HoverCard>
 							</div>
 							<div className='flex justify-end'>
-								{!isShared && <ShareDialog />}
+								{/* {!isShared && <ShareDialog />} */}
 								<Tooltip>
 									<TooltipTrigger asChild>
 										<Button
@@ -296,7 +296,7 @@ export default function Chat({ isShared = false }: { isShared: boolean }) {
 										Download the HTML
 									</TooltipContent>
 								</Tooltip>
-								<Tooltip>
+								{/* <Tooltip>
 									<TooltipTrigger asChild>
 										<Button
 											variant='ghost'
@@ -313,7 +313,7 @@ export default function Chat({ isShared = false }: { isShared: boolean }) {
 									<TooltipContent side='bottom'>
 										Toggle version history
 									</TooltipContent>
-								</Tooltip>
+								</Tooltip> */}
 							</div>
 						</div>
 						<HTMLAnnotator id={id} error={uiState.error} />

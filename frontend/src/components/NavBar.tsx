@@ -61,7 +61,7 @@ export default function NavBar() {
 					className='px-0 hover:bg-transparent'
 					variant='ghost'
 					onClick={() => {
-						setHistoryState(historyState === 'history' ? 'closed' : 'history')
+						// setHistoryState(historyState === 'history' ? 'closed' : 'history')
 						navigate('/ai/new')
 					}}
 				>
@@ -75,7 +75,7 @@ export default function NavBar() {
 						id === 'new' && 'hidden'
 					)}
 				>
-					{name}
+					{/* {name}
 					<Button
 						variant='ghost'
 						size='icon'
@@ -87,11 +87,11 @@ export default function NavBar() {
 						}
 					>
 						<ChevronDownIcon className='h-3 w-3' />
-					</Button>
+					</Button> */}
 				</div>
 			</div>
 			<div className='flex w-full items-center justify-end'>
-				<Button
+				{/* <Button
 					asChild
 					size='icon'
 					variant='secondary'
@@ -117,17 +117,18 @@ export default function NavBar() {
 							/>
 						</svg>
 					</a>
-				</Button>
-				<Settings
-					trigger={
-						<Button
-							className='mr-2 h-8 w-8 rounded-sm hover:bg-muted/80'
-							variant='secondary'
-							size='icon'
-						>
-							<GearIcon className='h-4 w-4' />
-						</Button>
-					}
+				</Button> */}
+				<Settings 
+				trigger={<></>}
+					// trigger={
+					// 	<Button
+					// 		className='mr-2 h-8 w-8 rounded-sm hover:bg-muted/80'
+					// 		variant='secondary'
+					// 		size='icon'
+					// 	>
+					// 		<GearIcon className='h-4 w-4' />
+					// 	</Button>
+					// }
 				/>
 
 				<Button
@@ -137,12 +138,12 @@ export default function NavBar() {
 					<PlusIcon className='mr-1 h-5 w-5' />
 					New UI
 				</Button>
-				<Avatar className='ml-6 mr-0 hidden rounded-full sm:flex'>
+				{/* <Avatar className='ml-6 mr-0 hidden rounded-full sm:flex'>
 					<AvatarImage src={avatarURL} />
 					<AvatarFallback>
 						<AvatarIcon className='h-5 w-5' />
 					</AvatarFallback>
-				</Avatar>
+				</Avatar> */}
 			</div>
 		</header>
 	)

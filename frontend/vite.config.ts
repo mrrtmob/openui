@@ -65,7 +65,7 @@ export default defineConfig(({ mode }) => ({
 				navigateFallbackDenylist: [/\/openui\/.*/, /\/v1\/.*/]
 			},
 			manifest: {
-				name: 'OpenUI by Weights & Biases',
+				name: 'Blizzer UI',
 				short_name: 'OpenUI',
 				display: 'standalone',
 				background_color: '#000000',

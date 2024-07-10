@@ -390,7 +390,7 @@ export default function HTMLAnnotator({ error, id }: HTMLAnnotatorProps) {
 			<div className='w-full p-1'>
 				<div className='grid grid-cols-3'>
 					<div className='col-span-1 items-center justify-center'>
-						<Tooltip>
+						{/* <Tooltip>
 							<TooltipTrigger asChild>
 								<Button
 									onClick={() => {
@@ -419,8 +419,8 @@ export default function HTMLAnnotator({ error, id }: HTMLAnnotatorProps) {
 								</Button>
 							</TooltipTrigger>
 							<TooltipContent>Click me if you dislike the UI</TooltipContent>
-						</Tooltip>
-						<Popover open={popoverOpen}>
+						</Tooltip> */}
+						{/* <Popover open={popoverOpen}>
 							<PopoverTrigger asChild>
 								<Button
 									className='-mr-2 border-none text-muted-foreground hover:animate-wiggle-zoom hover:bg-transparent'
@@ -489,7 +489,7 @@ export default function HTMLAnnotator({ error, id }: HTMLAnnotatorProps) {
 									</div>
 								</div>
 							</PopoverContent>
-						</Popover>
+						</Popover> */}
 					</div>
 
 					<div className='col-span-1 flex items-center justify-center'>
@@ -596,7 +596,7 @@ export default function HTMLAnnotator({ error, id }: HTMLAnnotatorProps) {
 
 					{/* TODO: Use a Drawer when on mobile here */}
 					<div className='col-span-1 flex justify-end'>
-						<Popover open={themePopoverOpen} onOpenChange={setThemePopoverOpen}>
+						{/* <Popover open={themePopoverOpen} onOpenChange={setThemePopoverOpen}>
 							<PopoverTrigger asChild>
 								<Button
 									size='icon'
@@ -693,7 +693,7 @@ export default function HTMLAnnotator({ error, id }: HTMLAnnotatorProps) {
 									</div>
 								</div>
 							</PopoverContent>
-						</Popover>
+						</Popover> */}
 						<Tooltip>
 							<TooltipTrigger asChild>
 								<Button
